@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<head>
+    <title>Profile picture</title>
+    <style>
+        .profile{ 
+            width: 200px;
+            object-fit: contain;
+            border-width: 2px;
+            border-style: dotted;
+            border-color: black;
+            border-radius: 18px;
+            margin-right: 14px;
+        }
+        .profile-two{ 
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            object-position: center;
+            border-color: black;
+            
+            margin-right: 14px;
+        }
+        .profile-three{ 
+            width: 200px;
+            
+            object-position: center;
+            
+            margin-right: 14px;
+            border-radius: 100px;
+        }
+        .search-bar{
+            font-size: 15px;
+            text-decoration-color: gray;
+            margin-top: 20px;
+            border-radius: 8px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            
+        }
+        .search-gle{
+            font-size: 12px;
+            border-style: none;
+
+            margin-top: 20px;
+            border-radius: 16px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+            padding-right: 70px;
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+        }
+        .email{
+            font-size: 14px;
+            margin-bottom: 2px;
+            padding-right: 10px;
+            font-family: Arial;
+            color: rgb(96, 88, 88);
+        }
+        .src-email{
+            font-size: 15px;
+            text-decoration-color: gray;
+            margin-top: 0px;
+            border-radius: 8px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 90px;
+            border-color: rgb(145, 143, 143);
+        }
+        .desc{
+            font-family: Arial;
+            margin-top: 5px;
+            font-size: 10px;
+            color:  rgb(96, 88, 88);;
+
+        }
+        .join-button{
+            background-color: rgb(50, 95, 207);
+            color: white;
+            border-color: rgb(41, 118, 211);
+           
+            border-radius: 16px;
+            text-align: center;
+            padding-right: 90px;
+            font-family: Arial;
+            border-style: solid;
+            border-width: 1px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            cursor: pointer; 
+            transition: background-color 1s,
+            color 1s;
+        }
+        .join-button:hover{
+            background-color: rgb(114, 114, 209);
+            color: white;
+        }
+        
+    </style>
+</head>
+    <body>
+       <img class="profile" src="WhatsApp Image 2024-09-02 at 22.57.10_12403661.jpg">
+       <img class="profile-two" src="WhatsApp Image 2024-09-02 at 22.57.10_12403661.jpg">
+       <img class="profile-three" src="WhatsApp Image 2024-09-02 at 22.57.10_12403661.jpg">
+       <br>
+       <input class="search-bar" type="text" placeholder="Search">
+       <br>
+       <input class="search-gle" type="text" placeholder="Search Google or type a URL">
+        <br>
+        <p class="email">
+            Email
+        </p>
+        <input class="src-email" type="text">
+        <p class="desc">
+            By clicking Agree & Join, you agree to the Privacy Policy.
+        </p>
+        <button class="join-button">
+            Agree & Join
+        </button>
+    </body>
